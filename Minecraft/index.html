@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./MinecraftCSS/main.css">
+    <link rel="stylesheet" href="./MinecraftCSS/world.css">
+    <title>Minecraft-2D</title>
+</head>
+
+<body>
+    <section id="landing">
+    <h1><b>2D Minecraft Game</b></h1>
+    <p id="p1">Build, explore, and create your own world in this simple 2D Minecraft-inspired game.</p>
+
+    <section class="instructions">
+        <h3>How To Play:🎮</h3>
+            <p>🌍 Move around the world.</p>
+            <p>⛏️ Break blocks to collect resources.</p>
+            <p>🏗️ Place blocks to build structures.</p>
+            <p>🎨 Use your creativity to design your own world.</p>
+    </section>
+
+    <button id="startGame">Start Game</button>
+
+    </section> <!--landing page-->
+
+    <section id="gamePage">
+        <h2>Welcome to Your Minecraft World!</h2>
+
+        <section class="tilesContainer">
+            <div class="sky"></div>
+
+            <section class="LeftColumn">
+                <div class="PickTool grass clickable">
+                    <div class="amount">
+                        <span id="grassCount">0</span>
+                    </div>
+                </div>
+
+                <div class="PickTool dirt clickable">
+                    <div class="amount">
+                        <span id="dirtCount">0</span>
+                    </div>
+                </div>
+
+                <div class="PickTool rock clickable">
+                    <div class="amount">   
+                        <span id="rockCount">0</span>
+                    </div>
+                </div>
+
+                <div class="PickTool wood clickable">
+                    <div class="amount">
+                        <span id="woodCount">0</span>
+                    </div>
+                </div>
+
+                <div class="PickTool leaves clickable">
+                    <div class="amount">
+                        <span id="leavesCount">0</span>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="RightColumn">
+                <div class="PickTool Axe clickable"></div>
+                <div class="PickTool Pickaxe clickable"></div>
+                <div class="PickTool Shovel clickable"></div>
+            </section>
+
+        </section> <!--tiles container-->
+
+        <section id="grid">
+
+        </section> <!--grid-->
+
+    </section> <!--game page-->
+
+
+    <script src="./MinecraftJS/world.js"></script>
+    <script src="./MinecraftJS/inventory.js"></script>
+</body>
+</html>

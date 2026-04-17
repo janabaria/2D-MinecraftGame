@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#landing {
+    background-image : url(https://wallpapercave.com/wp/wp2586787.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: "Press Start 2P" , "consolas" , sans-serif ;
+    text-align: center;
+    color: #000000;
+    margin-top: 40px;
+}
+
+#p1{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.instructions {
+    width: 500px;
+    height: 400px;
+    font-family: "Press Start 2P" , "consolas" , sans-serif ;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    padding: 20px;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+
+#startGame {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: "Press Start 2P" , "consolas" , sans-serif ;
+    color: #fff;
+    background-color: rgb(1, 141, 1);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#startGame:hover {
+    background-color: rgb(1, 93, 1);
+}
